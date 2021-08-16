@@ -1,0 +1,198 @@
+:root {
+  --first-color: #212121;
+  --second-color: #2196f3;
+  --third-color: #757575;
+  --fourth-color: #2f303a;
+  --fifth-color: #ffffff;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--first-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* !!!!!!!!!!!!!!!!!!!header !!!!!!!!!!!!!!!!!*/
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--first-color);
+}
+.web {
+  color: var(--second-color);
+}
+.header-navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-color);
+}
+.header-navigation:hover,
+.header-navigation:focus {
+  color: var(--second-color);
+}
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--third-color);
+}
+.line {
+  height: 0px;
+  left: 0px;
+  top: 80px;
+  border: 1px solid #ececec;
+}
+/* !!!!!!!!!!!!!main portfolio!!!!!!!!!!!!!!! */
+
+.portfolio-main-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  cursor: pointer;
+}
+.portfolio-main-button:hover,
+.portfolio-main-button:focus {
+  color: var(--fifth-color);
+  background-color: var(--second-color);
+}
+.portfolio-main-h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-main-p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+/* !!!!!!!!!!!!!!!!!main studio!!!!!!!!!! */
+.studio-section-one {
+  background: #2f303a;
+}
+.studio-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fifth-color);
+}
+.studio-batton {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--fifth-color);
+  background-color: var(--second-color);
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.studio-section-two-h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.studio-section-two-p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+.studio-section-three-h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.studio-section-three-li {
+  display: inline;
+  padding: 30px;
+}
+.studio-section-four {
+  background: #f5f4fa;
+}
+.studio-section-four-h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.studio-section-four-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.studio-section-four-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+/* !!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!! */
+.footer {
+  background: var(--fourth-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--fifth-color);
+}
+.footer-link-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fifth-color);
+}
+.footer-address-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-address:hover,
+.footer-link-address:focus {
+  color: var(--second-color);
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--second-color);
+}
