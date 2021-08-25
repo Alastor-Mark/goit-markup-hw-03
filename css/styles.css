@@ -121,7 +121,7 @@ ul {
 
 .portfolio-main-list-button {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .portfolio-main-button {
@@ -148,6 +148,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: -30px;
 }
 .portfolio-thumb {
   width: 370px;
@@ -162,7 +163,7 @@ ul {
   cursor: pointer;
 }
 .portfolio-thumb {
-  flex-basis: ((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -171,9 +172,9 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding: 4px;
-  margin-left: 24px;
-  margin-top: 20px;
+  margin-bottom: 4px;
+  /* margin-left: 24px;
+  margin-top: 20px; */
 }
 .portfolio-main-p {
   font-weight: normal;
@@ -181,9 +182,12 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--third-color);
-  padding: 4px;
+  /* padding: 4px;
   margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
+}
+.portfolio-main-text {
+  padding: 24px;
 }
 /* !!!!!!!!!!!!!!!!!main studio!!!!!!!!!! */
 .studio-section-one {
@@ -222,7 +226,6 @@ ul {
 }
 .studio-section-two-list {
   display: flex;
-  padding: 30px;
 }
 .studio-section-two-list-li:not(:last-child) {
   margin-right: 30px;
@@ -243,6 +246,9 @@ ul {
   color: var(--third-color);
   max-width: 270px;
 }
+.studio-section-three {
+  padding-bottom: -47px;
+}
 .studio-section-three-h2 {
   font-weight: bold;
   font-size: 36px;
@@ -259,6 +265,7 @@ ul {
 }
 .studio-section-four {
   background: #f5f4fa;
+  padding-top: -47px;
 }
 .studio-section-four-ul {
   display: flex;
@@ -285,7 +292,6 @@ ul {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .studio-section-four-position {
@@ -295,6 +301,9 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-color);
+}
+.studio-section-four-text {
+  padding-top: 30px;
 }
 /* !!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!!!! */
 .footer {
@@ -320,7 +329,9 @@ ul {
   color: var(--fifth-color);
   margin-top: 20px;
 }
+
 .footer-address-link {
+  display: block;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
