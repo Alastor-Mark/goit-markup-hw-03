@@ -6,7 +6,6 @@
   --fifth-color: #ffffff;
 }
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   color: var(--first-color);
 }
@@ -20,10 +19,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
-.header .container {
-  display: flex;
-  align-items: center;
-}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -32,7 +28,10 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .list {
   list-style: none;
 }
@@ -45,7 +44,11 @@ ul {
 }
 /* !!!!!!!!!!!!!!!!!!!header !!!!!!!!!!!!!!!!!*/
 .header {
-  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .header-nav-navigation {
   display: flex;
@@ -95,6 +98,10 @@ ul {
 .header-contacts-tel:focus {
   color: var(--second-color);
 }
+.header-contacts-list {
+  margin-left: auto;
+  display: flex;
+}
 .header-contacts-mail,
 .header-contacts-tel {
   display: block;
@@ -110,33 +117,57 @@ ul {
   margin-right: 50px;
 }
 
-.header-contacts-list {
-  margin-left: auto;
-  display: flex;
-}
-
 /* !!!!!!!!!!!!!main portfolio!!!!!!!!!!!!!!! */
 
+.portfolio-main-list-button {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
 .portfolio-main-button {
+  background-color: #f5f4fa;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.portfolio-main-li-button:not(:last-child) {
+  margin-right: 8px;
 }
 .portfolio-main-button:hover,
 .portfolio-main-button:focus {
   color: var(--fifth-color);
   background-color: var(--second-color);
 }
+.portfolio-main-list-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.portfolio-thumb {
+  width: 370px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.portfolio-thumb {
+  flex-basis: ((100% - 3 * 30px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+}
 .portfolio-main-h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding: 4px;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 .portfolio-main-p {
   font-weight: normal;
@@ -144,6 +175,9 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  padding: 4px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
 /* !!!!!!!!!!!!!!!!!main studio!!!!!!!!!! */
 .studio-section-one {
@@ -162,7 +196,6 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--fifth-color);
-  /* margin-top: 200px; */
   margin-bottom: 30px;
 }
 .studio-batton {
